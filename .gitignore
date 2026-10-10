@@ -1,0 +1,27 @@
+# Reference upstream clone — must NEVER be committed or pushed
+/tgDrive/
+
+# Build output
+/bin/
+/dist/
+/tgdrive
+/tgdrive.exe
+*.exe
+
+# Runtime data, databases, uploads
+/db/
+/data/
+/uploads/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Secrets / local overrides
+.env
+*.token
+*.secret
+
+# Logs / misc
+*.log
+/tmp/
